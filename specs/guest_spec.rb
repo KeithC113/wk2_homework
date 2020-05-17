@@ -6,12 +6,12 @@ require_relative("../guest")
 
 class GuestTest < MiniTest::Test
 
+# =>  set up guest list
   def setup()
     @guest1 = Guest.new("Mick", 100, "Start me up", "Beer")
     @guest2 = Guest.new("Keith", 200, "Ghost Town", "Gin")
     @guest3 = Guest.new("Ronnie", 250, "Brown Sugar", "Red Wine")
     @guest4 = Guest.new("Charlie", 150, "Can't get no Satisfaction","White Wine")
-
   end
 
 # => 1
